@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Sora:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+<!-- ══ NAVBAR ══ -->
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container">
+    <a class="nav-logo navbar-brand" href="#hero"><span></span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+      <ul class="navbar-nav gap-1">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ══ HERO ══ -->
+<section id="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-glow"></div>
+  <div class="container position-relative">
+    <div class="row align-items-center">
+      <div class="col-lg-8" style="animation: fadeInUp 0.8s 0.2s both;">
+        <div class="hero-tag">Available for work</div>
+        <h1 class="hero-name">
+          Hi !<br>
+          <span class="highlight">I'm SHINY</span><span class="highlight2"></span>
+        </h1>
+        <p class="hero-desc">
+          A passionate <strong style="color:var(--text)">Full Stack Developer</strong> who loves
+          building clean, fast, and beautiful web experiences. I turn ideas into reality with code.
+        </p>
+        <div>
+          <a href="#projects" class="btn-primary-custom">View My Work</a>
+          <a href="#contact" class="btn-ghost-custom">Get In Touch</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll-hint">
+    <div class="scroll-line"></div>
+    scroll
+  </div>
+</section>
+
+<!-- ══ ABOUT ══ -->
+<section id="about">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6 fade-up">
+        <div class="section-label">01 / About</div>
+        <h2 class="section-title">Who I Am</h2>
+        <div class="divider"></div>
+        <p class="about-text mb-3">
+  My journey into technology started with a curiosity to understand how websites and applications work, which gradually grew into a strong passion for development. I have completed my <strong>M.Sc. in Computer Science</strong>, during which I explored both <strong>web development</strong> and <strong>deep learning</strong>, gaining hands-on experience along the way. 
+</p>
+
+<p class="about-text mb-3">
+  I have built web applications using <strong>HTML, CSS, JavaScript, Flask, and MySQL</strong>, focusing on creating user-friendly and functional solutions. As part of my degree, I completed a research project titled 
+  <strong>“Identification of Handwriting and Drawing Patterns in Children with Autism Spectrum Disorder”</strong>, where I applied <strong>machine learning and deep learning models</strong> for image analysis.
+</p>
+
+<p class="about-text">
+  Through these experiences, I developed a strong interest in solving real-world problems using technology. I continue to learn, explore new tools, and improve my skills with the goal of building impactful and efficient applications.
+</p>
+      </div>
+      <div class="col-lg-6 fade-up">
+        <div class="row g-3">
+          <div class="col-6">
+            <div class="stat-card">
+              <div class="stat-num"><i class="bi bi-patch-check"></i></div>
+              <div class="stat-label">Adaptability</div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="stat-card">
+              <div class="stat-num"><i class="bi bi-people"></i></div>
+              <div class="stat-label">Teamwork</div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="stat-card">
+              <div class="stat-num"><i class="bi bi-clock"></i></div>
+              <div class="stat-label">Time Management</div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="stat-card">
+              <div class="stat-num"><i class="bi bi-chat"></i></div>
+              <div class="stat-label">Communication</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ SKILLS ══ -->
+<section id="skills">
+  <div class="container">
+    <div class="text-center mb-5 fade-up">
+      <div class="section-label">02 / Skills</div>
+      <h2 class="section-title">Tech Stack</h2>
+      <div class="divider mx-auto"></div>
+    </div>
+    <div class="d-flex flex-wrap gap-3 justify-content-center fade-up skill-adjust">
+      <span class="skill-pill"><img src="https://icones.pro/wp-content/uploads/2021/05/icone-html-orange.png" alt="HTML5"><h5>HTML</h5></span>
+      <span class="skill-pill"><img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" alt="CSS3"><h5>CSS</h5></span>
+      <span class="skill-pill"><img src="https://static.vecteezy.com/system/resources/thumbnails/048/332/149/small_2x/js-icon-transparent-background-free-png.png" alt="JavaScript"><h5>JavaScript</h5></span>
+      <span class="skill-pill"><img src="https://download.logo.wine/logo/MySQL/MySQL-Logo.wine.png" alt="MySQL"><h5>MySQL</h5></span>
+      <span class="skill-pill"><img src="https://cdn.iconscout.com/icon/free/png-256/free-github-logo-icon-svg-download-png-8630395.png?f=webp" alt="GitHub"><h5>GitHub</h5></span>
+      <span class="skill-pill"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0kYqetlL2XFzzYZMLXy6gJJ4Ze2M0og8OsQ&s" alt="Render"><h5>Render</h5></span>
+      <span class="skill-pill"><img src="https://static.vecteezy.com/system/resources/previews/067/565/470/non_2x/bootstrap-logo-rounded-free-png.png" alt="Bootstrap"><h5>Bootstrap</h5></span>
+      <span class="skill-pill"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1280px-Python-logo-notext.svg.png" alt="Python"><h5>Python</h5></span>
+    </div>
+  </div>
+</section>
+
+<!-- ══ PROJECTS ══ -->
+<section id="projects">
+  <div class="container">
+    <div class="text-center mb-5 fade-up">
+      <div class="section-label">03 / Projects</div>
+      <h2 class="section-title">My Work</h2>
+      <div class="divider mx-auto"></div>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+
+      <!-- Project 1 -->
+      <div class="col-md-6 col-lg-3 fade-up">
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="images/BB.png" class="img-fluid">
+          </div>
+          <div class="project-body">
+            <div class="project-tag">Full Stack</div>
+            <div class="project-title">Banquet Booking System</div>
+            <p class="project-desc">
+              A complete web application to book event halls with user login, admin panel, and booking management using Flask & MySQL.
+            </p>
+            <div class="project-links">
+              <a href="https://banquet-booking-system-1.onrender.com/" target="_blank">Live App</a>
+              <a href="https://github.com/im-shy-ni/banquet_booking_system" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <!-- Project 3 -->
+      <div class="col-md-6 col-lg-3 fade-up">
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="images/SET.png" class="img-fluid">
+          </div>
+          <div class="project-body">
+            <div class="project-tag">Web App</div>
+            <div class="project-title">Smart Expense Tracker</div>
+            <p class="project-desc">
+              A personal finance tracker to manage expenses, generate reports, and visualize spending using charts.
+            </p>
+            <div class="project-links">
+              <a href="https://smart-expense-traker.onrender.com" target="_blank">Live App</a>
+              <a href="https://github.com/im-shy-ni/Smart_Expense_Traker" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="col-md-6 col-lg-3 fade-up">
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="images/UC.png" class="img-fluid">
+          </div>
+          <div class="project-body">
+            <div class="project-tag">Frontend</div>
+            <div class="project-title">University Chatbot</div>
+            <p class="project-desc">
+              A chatbot web interface designed to answer student queries using a simple and interactive UI.
+            </p>
+            <div class="project-links">
+              <a href="https://universitybot.onrender.com" target="_blank">Live App</a>
+              <a href="#" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ CONTACT ══ -->
+<section id="contact">
+  <div class="container">
+    <div class="text-center mb-5 fade-up">
+      <div class="section-label">04 / Contact</div>
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="divider mx-auto"></div>
+
+      <p style="color:var(--muted); font-size:0.97rem; line-height:1.7;">
+        Feel free to reach out for opportunities, collaborations, or any queries.
+      </p>
+    </div>
+    <div class="contact-image fade-up">
+  <img src=".\images\mypic.png" alt="Shiny Neson">
+</div>
+
+    <div class="contact-info fade-up">
+
+      <div class="contact-item">
+        <span><i class="bi bi-envelope"></i></span>
+        <a href="mailto:yourmail@gmail.com">mail2shinyneson@gmail.com</a>
+      </div>
+
+      <div class="contact-item">
+        <span><i class="bi bi-telephone"></i></span>
+        <a href="tel:+91XXXXXXXXXX">+91 87548 24077</a>
+      </div>
+
+      <div class="contact-item">
+        <span><i class="bi bi-github"></i></span>
+        <a href="https://github.com/im_shy_ni" target="_blank">GitHub</a>
+      </div>
+
+      <div class="contact-item">
+        <span><i class="bi bi-linkedin"></i></span>
+        <a href="https://linkedin.com/in/shinyneson" target="_blank">LinkedIn</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="container">
+    <div class="d-flex flex-column flex-md-row align-items-center justify-content-between gap-3">
+      <span class="footer-text">shinyneson &copy; 2026</span>
+      <div>
+        <a href="https://github.com/" class="social-link" title="GitHub">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+        </a>
+        <a href="mailto:your@email.com" class="social-link" title="Email">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        </a>
+        <a href="https://linkedin.com/" class="social-link" title="LinkedIn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+window.addEventListener("DOMContentLoaded", function () {
+  const hero = document.querySelector("#hero");
+  const bg = document.querySelector(".hero-grid-bg");
+
+  document.addEventListener("mousemove", function (e) {
+    const rect = hero.getBoundingClientRect();
+
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+
+    bg.style.setProperty("--x", x + "px");
+    bg.style.setProperty("--y", y + "px");
+  });
+});
+</script>
+</body>
+</html>
