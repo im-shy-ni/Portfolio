@@ -325,7 +325,7 @@ mask-image: radial-gradient(
 }
     
     /* ── PROJECTS ── */
-    #projects { background: var(--bg2); display: flex; align-items: center; justify-content: center;text-align:justify;}
+    #projects { background: var(--bg2); display: flex; align-items: center; justify-content: center;}
     .project-card {
       background: var(--bg3);
       border: 1px solid var(--card-border);
@@ -390,6 +390,7 @@ mask-image: radial-gradient(
       color: var(--muted);
       line-height: 1.6;
       margin-bottom: 1.2rem;
+      text-align: justify;
     }
     .project-links a {
       font-family: var(--font-head);
