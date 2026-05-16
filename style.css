@@ -325,7 +325,7 @@ mask-image: radial-gradient(
 }
     
     /* ── PROJECTS ── */
-    #projects { background: var(--bg2); display: flex; align-items: center; justify-content: center;}
+    #projects { background: var(--bg2); display: flex; align-items: center; justify-content: center;text-align:justify;}
     .project-card {
       background: var(--bg3);
       border: 1px solid var(--card-border);
@@ -333,7 +333,7 @@ mask-image: radial-gradient(
       overflow: hidden;
       transition: transform 0.3s, box-shadow 0.3s;
       height: 100%;
-      text-align:justify;
+      
       
     }
     .project-card img{
