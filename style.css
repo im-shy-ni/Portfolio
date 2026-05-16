@@ -390,7 +390,7 @@ mask-image: radial-gradient(
       color: var(--muted);
       line-height: 1.6;
       margin-bottom: 1.2rem;
-      text-align: justify;
+    
     }
     .project-links a {
       font-family: var(--font-head);
